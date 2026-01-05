@@ -10,6 +10,10 @@ data/
 *.pth
 *.pt
 
+# Results (optional - keep JSON, ignore raw histories)
+raw_runs.pkl
+comparison_plots.png
+
 # OS
 .DS_Store
 __pycache__/

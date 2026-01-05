@@ -14,3 +14,10 @@ class Config:
     # Dataset config
     data_dir = './data'
     num_workers = 2
+    
+    # Reproducibility
+    seed = 42
+    seeds = [42, 123, 456]  # For multi-run mode
+    
+    # Comparison settings
+    save_models = False  # Set to True to save model weights
